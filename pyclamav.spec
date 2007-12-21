@@ -9,6 +9,7 @@ Source0:	http://xael.org/norman/python/pyclamav/%{name}-%{version}.tar.bz2
 BuildRequires:  clamav-devel >= 0.90
 BuildRequires:	python-devel
 %py_requires -d
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 A Python interface to libclamav.
