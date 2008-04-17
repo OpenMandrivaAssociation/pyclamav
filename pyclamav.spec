@@ -1,8 +1,8 @@
 Summary:	A Python interface to libclamav
 Name:		pyclamav
-Version:	0.4.0
-Release:	%mkrel 3
-License:	GPL
+Version:	0.4.1
+Release:	%mkrel 1
+License:	GPLv2+
 Group:		System/Libraries
 URL:		http://xael.org/norman/python/pyclamav/index.html
 Source0:	http://xael.org/norman/python/pyclamav/%{name}-%{version}.tar.bz2
@@ -35,5 +35,3 @@ python -- setup.py install \
 %doc README.txt CHANGELOG example.py
 %attr(755,root,root) %{_libdir}/python2.5/site-packages/%{name}.so
 %{_libdir}/python2.5/site-packages/%{name}*.egg-info
-
-
