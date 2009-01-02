@@ -33,5 +33,5 @@ python -- setup.py install \
 %files
 %defattr(644,root,root,755)
 %doc README.txt CHANGELOG example.py
-%attr(755,root,root) %{_libdir}/python2.5/site-packages/%{name}.so
-%{_libdir}/python2.5/site-packages/%{name}*.egg-info
+%attr(755,root,root) %py_platsitedir/%{name}.so
+%py_platsitedir/%{name}*.egg-info
