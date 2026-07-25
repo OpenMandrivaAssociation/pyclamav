@@ -1,7 +1,7 @@
 Summary:	A Python interface to libclamav
 Name:		pyclamav
 Version:	0.4.1
-Release:	%mkrel 4
+Release:	5
 License:	GPLv2+
 Group:		System/Libraries
 URL:		https://xael.org/norman/python/pyclamav/index.html
